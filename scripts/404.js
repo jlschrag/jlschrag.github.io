@@ -1,4 +1,4 @@
-if (document.URL.indexOf("DataTypeConverter") !== -1)
+if (document.location.href.indexOf("DataTypeConverter") !== -1)
 {
 	window.location.href = "http://jlschrag.github.io/DataTypeConverter";
 }
