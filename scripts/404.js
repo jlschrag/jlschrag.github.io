@@ -1,8 +1,8 @@
 if (document.URL.indexOf("DataTypeConverter") !== -1)
 {
-	window.location.replace("http://jlschrag.github.io/DataTypeConverter");
+	window.location.href = "http://jlschrag.github.io/DataTypeConverter";
 }
 else
 {
-	window.location.replace("http://josephschrag.com");
+	window.location.href = "http://josephschrag.com";
 }
