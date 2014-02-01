@@ -1,8 +1,8 @@
-if (document.URL === "http://jlschrag.github.io/DataTypeConverter.html")
+if (document.URL.indexOf("DataTypeConverter") !== -1)
 {
-	window.location.replace('jlschrag.github.io/DataTypeConverter');
+	window.location = "jlschrag.github.io/DataTypeConverter"
 }
 else
 {
-	window.location.replace('josephschrag.com');
+	window.location = "josephschrag.com"
 }
