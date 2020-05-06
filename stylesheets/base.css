@@ -6,21 +6,26 @@ html {
 	background-size: cover;
 }
 
+body {
+	margin: 0;
+}
+
 h1 {
 	font-size: 75;
-	color: black;
+	color: #202020;
 	text-align: center;
 }
 
 #aboutme {
-	background: rgba(255, 255, 255, .9);
+	background: rgba(255, 255, 255, .7);
 	position: relative;
 	top: 0px;
-	left: 50px;
+	left: 70px;
 	width: 350px;
+	height: 100%;
 	padding: 20px;
 	font-size: 20;
-	color: #707070;
+	color: #606060;
 	font-family: Helvetica;
 }
 
