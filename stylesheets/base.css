@@ -4,13 +4,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
 }
 
 h1 {
     font-size: 3.5rem;
-    color: #333333;
+    color: #c3c3c3;
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -18,17 +18,17 @@ h1 {
 }
 
 #aboutme {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(30, 30, 30, 0.85);
     padding: 40px;
     border-radius: 15px;
     font-size: 1.25rem;
-    color: #606060;
+    color: #939393;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     max-width: 600px;
 }
 
 #aboutme a {
-    color: #007bff;
+    color: #add8e6;
     text-decoration: none;
 }
 
@@ -38,13 +38,13 @@ h1 {
 
 #aboutme .social-icons a {
     font-size: 2rem;
-    color: #2f4f4f;
+    color: #d3d3d3;
     margin: 0 10px;
     transition: color 0.3s;
 }
 
 #aboutme .social-icons a:hover {
-    color: #4682b4;
+    color: white;
 }
 
 #aboutme .social-icons .blog-icon {
