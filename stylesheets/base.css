@@ -4,6 +4,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
@@ -20,7 +22,9 @@ h1 {
     color: #606060;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     max-width: 600px;
-    margin: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 #aboutme a {
