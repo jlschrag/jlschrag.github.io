@@ -1,34 +1,68 @@
-html { 
-	background: url('../images/Climbing.png') no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+html,
+body {
+    height: 100%;
+}
+
+html {
+    background: url("../images/Climbing.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body {
-	margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
 h1 {
-	font-size: 75;
-	color: #202020;
-	text-align: center;
+    font-size: 3.5rem;
+    color: #202020;
+    text-align: center;
 }
 
 #aboutme {
-	background: rgba(255, 255, 255, .7);
-	position: relative;
-	top: 0px;
-	left: 70px;
-	width: 350px;
-	height: 100%;
-	padding: 20px;
-	font-size: 20;
-	color: #606060;
-	font-family: Helvetica;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 1.25rem;
+    color: #606060;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px;
 }
 
 #aboutme a {
-	color: #6495ED;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#aboutme a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: #606060;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #aboutme {
+        padding: 20px;
+        font-size: 1rem;
+    }
 }
