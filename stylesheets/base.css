@@ -10,7 +10,7 @@ body {
 
 h1 {
     font-size: 3.5rem;
-    color: #c3c3c3;
+    color: #e6e6fa;
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -18,17 +18,17 @@ h1 {
 }
 
 #aboutme {
-    background: rgba(30, 30, 30, 0.85);
+    background: rgba(48, 25, 52, 0.85);
     padding: 40px;
     border-radius: 15px;
     font-size: 1.25rem;
-    color: #939393;
+    color: #d8bfd8;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     max-width: 600px;
 }
 
 #aboutme a {
-    color: #add8e6;
+    color: #dda0dd;
     text-decoration: none;
 }
 
@@ -38,21 +38,21 @@ h1 {
 
 #aboutme .social-icons a {
     font-size: 2rem;
-    color: #d3d3d3;
+    color: #e6e6fa;
     margin: 0 10px;
     transition: color 0.3s;
 }
 
 #aboutme .social-icons a:hover {
-    color: white;
+    color: #fff;
 }
 
 #aboutme .social-icons .blog-icon {
-    color: #ff6347;
+    color: #ff69b4;
 }
 
 #aboutme .social-icons .blog-icon:hover {
-    color: #e5533d;
+    color: #ff1493;
 }
 
 #recommendations {
