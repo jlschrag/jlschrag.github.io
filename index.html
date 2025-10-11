@@ -13,8 +13,13 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         />
         <link href="stylesheets/base.css" rel="stylesheet" type="text/css" />
+        <link
+            href="stylesheets/collapse_panel.css"
+            rel="stylesheet"
+            type="text/css"
+        />
     </head>
-    <body class="d-flex align-items-center justify-content-center vh-100">
+    <body class="d-flex align-items-center justify-content-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
@@ -24,8 +29,8 @@
                             18 year Software Engineer turned Engineering Manager
                             focused on building the right thing, taking diverse
                             perspectives into account, and driving efficiency at
-                            every level, from code to tooling to company
-                            process.
+                            every level, from code to tooling to org-wide
+                            collaboration.
                         </p>
                         <p>
                             Leveraging technology for environmental and social
@@ -60,11 +65,11 @@
                             ></a>
                         </div>
                         <hr />
-                        <div id="recommendations">
+                        <div id="recommendations" class="collapse-panel">
                             <div class="quote">
                                 <p>
                                     "One of the best engineering managers I’ve
-                                    ever collaborated with.""
+                                    ever collaborated with."
                                 </p>
                                 <p>
                                     "Joe has a rare ability to look at problems
@@ -84,32 +89,61 @@
                                     - Kyle Piper, Chief Architect at AppOmni
                                 </p>
                             </div>
-                            <div class="quote">
-                                <p>
-                                    "[Joe] always brings clarity when things get
-                                    messy."
-                                </p>
-                                <p class="author">
-                                    - Marina Elmore, Senior Product Manager at
-                                    AppOmni
-                                </p>
+                            <div class="collapse" id="collapseRecommendations">
+                                <div class="quote">
+                                    <p>
+                                        "[Joe] always brings clarity when things
+                                        get messy."
+                                    </p>
+                                    <p class="author">
+                                        - Marina Elmore, Senior Product Manager
+                                        at AppOmni
+                                    </p>
+                                </div>
+                                <div class="quote">
+                                    <p>
+                                        "He quickly identified our team’s most
+                                        pressing blind spots and developed
+                                        thoughtful, actionable strategies to
+                                        address them."
+                                    </p>
+                                    <p class="author">
+                                        - Hunter Chemelli, Software Engineer at
+                                        AppOmni
+                                    </p>
+                                </div>
                             </div>
-                            <div class="quote">
-                                <p>
-                                    "He quickly identified our team’s most
-                                    pressing blind spots and developed
-                                    thoughtful, actionable strategies to address
-                                    them."
-                                </p>
-                                <p class="author">
-                                    - Hunter Chemelli, Software Engineer at
-                                    AppOmni
-                                </p>
+                            <div class="more-button-container">
+                                <a
+                                    id="more-button"
+                                    class="more-button"
+                                    data-bs-toggle="collapse"
+                                    href="#collapseRecommendations"
+                                    role="button"
+                                    aria-expanded="false"
+                                    aria-controls="collapseRecommendations"
+                                >
+                                    <i class="fas fa-chevron-down"></i> more
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            var collapseElement = document.getElementById(
+                "collapseRecommendations",
+            );
+            var moreButton = document.getElementById("more-button");
+
+            collapseElement.addEventListener("shown.bs.collapse", function () {
+                moreButton.innerHTML =
+                    '<i class="fab fa-linkedin"></i> more recommendations';
+                moreButton.href = "http://linkedin.com/in/josephschrag";
+                moreButton.removeAttribute("data-bs-toggle");
+            });
+        </script>
     </body>
 </html>
