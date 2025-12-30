@@ -8,6 +8,30 @@
         />
     </head>
     <body>
+        <div class="calendar-note">
+            <div class="calendar-timezone-note">
+                All times shown in local browser time.
+            </div>
+            To schedule, please
+            <span id="email-placeholder">contact me directly.</span>
+        </div>
+        <script>
+            (function () {
+                var user = atob("bWVldA==");
+                var domain = atob("am9lc2NocmFnLmNvbQ==");
+                var placeholder = document.getElementById("email-placeholder");
+                placeholder.innerHTML =
+                    'send invitations to <a style="color: #666" href="mailto:' +
+                    user +
+                    "@" +
+                    domain +
+                    '">' +
+                    user +
+                    "@" +
+                    domain +
+                    "</a>";
+            })();
+        </script>
         <iframe
             id="open-web-calendar"
             style="
