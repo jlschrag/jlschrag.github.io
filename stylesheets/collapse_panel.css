@@ -1,10 +1,8 @@
-/* Basic styling for the collapse panel */
 .collapse-panel {
     position: relative;
-    padding-bottom: 50px; /* Space for the "more" button */
+    padding-bottom: 50px;
 }
 
-/* Styling for the "more" button */
 .more-button-container {
     position: absolute;
     bottom: 0;
@@ -12,14 +10,16 @@
     right: 0;
     text-align: center;
     padding-top: 10px;
-    background-color: transparent; /* Match the background */
+    background-color: transparent;
 }
 
 .more-button {
     cursor: pointer;
     display: inline-block;
+    color: #d2b48c;
 }
 
 .more-button .fa-chevron-down {
     margin-right: 5px;
+    color: #d2b48c;
 }
