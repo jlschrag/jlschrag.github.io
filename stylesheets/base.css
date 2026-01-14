@@ -72,6 +72,24 @@ h1 {
     color: #d2b48c;
 }
 
+#aboutme .social-icon-group {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    text-align: center;
+}
+
+#aboutme .social-icon-label {
+    font-size: 0.78rem;
+    color: #dcdcdc;
+    margin-top: 0.15rem;
+    line-height: 1;
+}
+
+#aboutme .blog-label {
+    color: #d2b48c;
+}
+
 /* Resume group: inline group within the social-icons row */
 .social-icons .resume-group {
     display: inline-block;
