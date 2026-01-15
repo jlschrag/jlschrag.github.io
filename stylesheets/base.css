@@ -41,8 +41,9 @@ h1 {
 }
 
 #aboutme .btn-connect {
-    background-color: #d2b48c;
+    background-color: transparent;
     border-color: #d2b48c;
+    border-width: 2px;
     color: #fff;
     font-size: 1.25rem;
 }
@@ -51,6 +52,7 @@ h1 {
     background-color: #c8a97e;
     border-color: #c8a97e;
     color: #fff;
+    text-decoration: none;
 }
 
 #aboutme .social-icons a {
