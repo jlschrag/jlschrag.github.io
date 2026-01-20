@@ -163,15 +163,6 @@ h1 {
     .social-icons .resume-group {
         margin-top: 1rem;
     }
-
-    #scroll-indicator {
-        position: fixed;
-        bottom: 10px;
-        left: 10px;
-        color: #fff;
-        font-size: 2rem;
-        z-index: 1000;
-    }
 }
 
 @media (min-width: 769px) {

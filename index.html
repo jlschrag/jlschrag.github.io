@@ -158,27 +158,5 @@
                 </div>
             </div>
         </div>
-        <div id="scroll-indicator" class="d-md-none">&darr;</div>
-        <script>
-            const scrollIndicator = document.getElementById("scroll-indicator");
-
-            function updateScrollIndicator() {
-                if (
-                    window.innerHeight + window.scrollY >=
-                    document.body.offsetHeight - 20
-                ) {
-                    scrollIndicator.classList.add("d-none");
-                } else {
-                    scrollIndicator.classList.remove("d-none");
-                }
-            }
-
-            if (document.body.scrollHeight <= window.innerHeight) {
-                scrollIndicator.classList.add("d-none");
-            } else {
-                window.addEventListener("scroll", updateScrollIndicator);
-                updateScrollIndicator();
-            }
-        </script>
     </body>
 </html>
