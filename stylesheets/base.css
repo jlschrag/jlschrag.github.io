@@ -1,5 +1,6 @@
 body {
     background: url("../images/headshot.jpg") no-repeat center -1.35in;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,7 +19,7 @@ h1 {
 }
 
 #aboutme {
-    background: rgba(30, 30, 30, 0.85);
+    background: rgba(30, 30, 30, 0.9);
     padding: 40px;
     border-radius: 15px;
     font-size: 1.25rem;
@@ -142,7 +143,6 @@ h1 {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     body {
-        background-attachment: fixed;
         background-position: center center;
         display: flex;
         align-items: center;
