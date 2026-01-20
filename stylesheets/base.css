@@ -157,10 +157,20 @@ h1 {
         padding: 20px;
         font-size: 1rem;
         position: static;
+        margin-top: 23rem;
     }
 
     .social-icons .resume-group {
         margin-top: 1rem;
+    }
+
+    #scroll-indicator {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        color: #fff;
+        font-size: 2rem;
+        z-index: 1000;
     }
 }
 
