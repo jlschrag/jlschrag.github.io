@@ -113,6 +113,7 @@ h1 {
 }
 .social-icons .resume-group .resume-icons a:hover {
     color: #efefef;
+    text-decoration: none !important;
 }
 .social-icons .resume-group .resume-label {
     font-size: 0.78rem;
@@ -138,6 +139,10 @@ h1 {
     font-style: normal;
     font-weight: bold;
     text-align: right;
+}
+
+.more-button {
+    color: #d2b48c;
 }
 
 /* Responsive adjustments */
